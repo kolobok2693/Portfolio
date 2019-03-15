@@ -1,0 +1,41 @@
+html, body, header, #intro {
+    height: 100%;
+}
+
+#intro {
+    background: url(../img/main/1.jpg) no-repeat fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.navbar-brand {
+    font-weight: bolder;
+}
+
+.top-nav-collapse {
+    background-color: #0c0c0c;
+}
+
+@media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse){
+        background: #0c0c0c;
+    }
+}
+
+.f-dark {
+    background-color: #0c0c0c;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
